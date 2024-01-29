@@ -13,7 +13,7 @@ class TypeConversion{
 
 		
 		int a2=2567;
-		byte b2=(byte)a;
+		byte b2=(byte)a2;
         System.out.println(b2);
 
         float f = 7.5f;
