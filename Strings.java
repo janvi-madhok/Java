@@ -5,6 +5,7 @@ public class Strings{
         String str = new String("HelloWorld");
 
         System.out.println(str);
+        System.out.println(str.length());
         System.out.println(str.charAt(6));
         System.out.println(str.concat("India"));
         System.out.println(str.hashCode());
