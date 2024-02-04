@@ -35,6 +35,11 @@ public class ArrayOfObjects{
             System.out.println(emp[i].empId+" - "+emp[i].name+" : "+emp[i].salary);
         }
 
+        System.out.println("Enhanced for loop");
+
+        for(Employee e : emp){
+            System.out.println(e.name+" : "+e.salary);
+        }
 
     }
 }
